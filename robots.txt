@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://mayshomespa.com/sitemap.xml
