@@ -1,0 +1,8 @@
+RewriteCond %{HTTPS} !on [OR]
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule (.*) https://mayshomespa.com%{REQUEST_URI} [L,R=301]
+RewriteRule ^index\.html$ / [NC,R,L]
+
+ErrorDocument 404 https://mayshomespa.com/services.html
+ErrorDocument 500 https://mayshomespa.com/services.html
+IndexIgnore *.zip *.jpg *.gif *.pdf
