@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
 <channel>
-  <title>ROR Sitemap for http://mayshomespa.com/</title>
-  <link>http://mayshomespa.com/</link>
+  <title>ROR Sitemap for https://mayshomespa.com/</title>
+  <link>https://mayshomespa.com/</link>
 
 <item>
-     <link>http://mayshomespa.com/</link>
+     <link>https://mayshomespa.com/</link>
+     <title>Best Home Body Spa In Pattaya | Best Outcall Massage In Pattaya</title>
+     <description>Sensational Home Spa - By May | Best Body Spa In Pattaya, Best Home Spa In Pattaya, Best Outcall Massage In Pattaya, Best Outcall Spa In Pattaya</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://mayshomespa.com/services.html</link>
      <title>Sensational home spa - By may</title>
      <description>MAY’S HOME SPA</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>0</ror:sortOrder>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://mayshomespa.com/index.html</link>
+     <title>Best Home Body Spa In Pattaya | Best Outcall Massage In Pattaya</title>
+     <description>Sensational Home Spa - By May | Best Body Spa In Pattaya, Best Home Spa In Pattaya, Best Outcall Massage In Pattaya, Best Outcall Spa In Pattaya</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 </channel>
