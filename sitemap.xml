@@ -9,17 +9,42 @@
 
 <url>
   <loc>https://mayshomespa.com/</loc>
-  <lastmod>2020-01-28T07:09:59+00:00</lastmod>
+  <lastmod>2020-02-01T07:09:59+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://mayshomespa.com/services.html</loc>
-  <lastmod>2020-01-28T07:09:59+00:00</lastmod>
+  <lastmod>2020-02-01T07:09:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mayshomespa.com/index.html</loc>
-  <lastmod>2020-01-28T07:09:59+00:00</lastmod>
+  <lastmod>2020-02-01T07:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mayshomespa.com/about-body-massage.html</loc>
+  <lastmod>2020-02-01T07:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mayshomespa.com/about-thai-massage.html</loc>
+  <lastmod>2020-02-01T07:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mayshomespa.com/gallery.html</loc>
+  <lastmod>2020-02-01T07:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mayshomespa.com/our-girls.html</loc>
+  <lastmod>2020-02-01T07:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mayshomespa.com/outcall-hotel-massage.html</loc>
+  <lastmod>2020-02-01T07:09:59+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
