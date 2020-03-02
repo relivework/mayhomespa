@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://mayshomespa.com/sitemap.xml
+Sitemap: http://outcallmassagespattaya.com/sitemap.xml
