@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://outcallmassagespattaya.com/sitemap.xml
+Sitemap: https://outcallmassagespattaya.com/sitemap.xml
