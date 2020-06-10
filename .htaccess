@@ -1,5 +1,0 @@
-RewriteEngine on	
-RewriteCond %{HTTP_HOST} ^https://www.outcallmassagespattaya.com [NC]	
-RewriteRule ^(.*)$ https://outcallmassagespattaya.com/$1 [L,R=301,NC]	
-RewriteCond %{THE_REQUEST} ^.*/index.html	
-RewriteRule ^(.*)index.html$ /$1 [R=301,L] 	
