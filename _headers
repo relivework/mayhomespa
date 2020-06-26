@@ -1,2 +1,3 @@
 /*
   Access-Control-Allow-Origin: *
+  Set-Cookie: mymy=yuyu; SameSite=None; Secure
