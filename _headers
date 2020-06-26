@@ -1,2 +1,2 @@
-/*
-  Access-Control-Allow-Origin: *
+headers = [
+  {for = "/*", values = {Access-Control-Allow-Origin =  *, SameSite=None, Secure}}]
