@@ -1,0 +1,28 @@
+{
+  "name": "mayhomespa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relivetech/mayhomespa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/relivetech/mayhomespa/issues"
+  },
+  "homepage": "https://github.com/relivetech/mayhomespa#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.3",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1"
+  }
+}
