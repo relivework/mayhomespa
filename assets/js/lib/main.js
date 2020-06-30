@@ -254,72 +254,72 @@
             Home bg parallax
         \*------------------------------------*/
 
-    if (typeof ScrollMagic !== "undefined") {
-      var selector = "#home-bg-parallax";
+    // if (typeof ScrollMagic !== "undefined") {
+    //   var selector = "#home-bg-parallax";
 
-      // Init controller
-      var controller = new ScrollMagic.Controller({ globalSceneOptions: { triggerHook: "onEnter", duration: "200%" } });
+    //   // Init controller
+    //   var controller = new ScrollMagic.Controller({ globalSceneOptions: { triggerHook: "onEnter", duration: "200%" } });
 
-      // Build scenes
-      new ScrollMagic.Scene({ triggerElement: selector })
-        .setTween(selector + " > .bg-parallax", { y: "80%", ease: Linear.easeNone })
-        .addTo(controller);
-    }
+    //   // Build scenes
+    //   new ScrollMagic.Scene({ triggerElement: selector })
+    //     .setTween(selector + " > .bg-parallax", { y: "80%", ease: Linear.easeNone })
+    //     .addTo(controller);
+    // }
 
     /*------------------------------------*\
             Home bg slideshow
         \*------------------------------------*/
 
-    if ($.fn.flexslider) {
-      var $bgSlideshowWrapper = $(".bg-slideshow-wrapper");
-      $bgSlideshowWrapper.flexslider({
-        selector: ".slides > .bg-cover",
-        easing: "linear",
-        slideshowSpeed: 3500,
-        controlNav: false,
-        directionNav: false,
-        keyboard: false,
-        pauseOnAction: false,
-        touch: false,
-      });
-    } else {
-      console.log('Home bg slideshow: Plugin "flexslider" is not loaded.');
-    }
+    // if ($.fn.flexslider) {
+    //   var $bgSlideshowWrapper = $(".bg-slideshow-wrapper");
+    //   $bgSlideshowWrapper.flexslider({
+    //     selector: ".slides > .bg-cover",
+    //     easing: "linear",
+    //     slideshowSpeed: 3500,
+    //     controlNav: false,
+    //     directionNav: false,
+    //     keyboard: false,
+    //     pauseOnAction: false,
+    //     touch: false,
+    //   });
+    // } else {
+    //   console.log('Home bg slideshow: Plugin "flexslider" is not loaded.');
+    // }
 
     /*------------------------------------*\
             Home bg slider
         \*------------------------------------*/
 
-    if ($.fn.flickity) {
-      var $bgSliderWrapper = $(".bg-slider-wrapper");
-      $bgSliderWrapper.flickity({
-        cellAlign: "left",
-        contain: true,
-        prevNextButtons: false,
-        pageDots: false,
-        draggable: false,
-        autoPlay: 3500,
-        pauseAutoPlayOnHover: false,
-      });
-    } else {
-      console.log('Home bg slider: Plugin "flickity" is not loaded.');
-    }
+    // if ($.fn.flickity) {
+    //   var $bgSliderWrapper = $(".bg-slider-wrapper");
+    //   $bgSliderWrapper.flickity({
+    //     cellAlign: "left",
+    //     contain: true,
+    //     prevNextButtons: false,
+    //     pageDots: false,
+    //     draggable: false,
+    //     autoPlay: 3500,
+    //     pauseAutoPlayOnHover: false,
+    //   });
+    // } else {
+    //   console.log('Home bg slider: Plugin "flickity" is not loaded.');
+    // }
 
     /*------------------------------------*\
             Animated typing
         \*------------------------------------*/
 
-    if ($.fn.typed) {
-      var $typedStrings = $(".typed-strings");
-      $typedStrings.typed({
-        strings: ["Balinese Massage", "Bamboo Fusion", "Foot Reflexology", "Ear Candeling"],
-        typeSpeed: 130,
-        loop: true,
-        showCursor: false,
-      });
-    } else {
-      console.log('Animated typing: Plugin "typed" is not loaded.');
-    }
+    // if ($.fn.typed) {
+    //   var $typedStrings = $(".typed-strings");
+    //   $typedStrings.typed({
+    //     strings: ["Balinese Massage", "Bamboo Fusion", "Foot Reflexology", "Ear Candeling"],
+    //     typeSpeed: 130,
+    //     loop: true,
+    //     showCursor: false,
+    //   });
+    // } else {
+    //   console.log('Animated typing: Plugin "typed" is not loaded.');
+    // }
 
     /*------------------------------------*\
             Contact form
