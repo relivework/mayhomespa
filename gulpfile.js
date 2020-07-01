@@ -14,7 +14,12 @@ const jsBundling = function () {
 };
 
 const cssBundling = function () {
-  return src("assets/css/*.css").pipe(concat("root.css")).pipe(cleanCss()).pipe(dest("assets/dist"));
+  return src("assets/css/*.css").pipe(concat("root.css")).pipe(minify({
+    ext:{
+        min:'.js'
+    },
+    noSource: true
+})).pipe(cleanCss()).pipe(dest("assets/dist"));
 };
 
 exports.default = series(jsBundling, cssBundling);
